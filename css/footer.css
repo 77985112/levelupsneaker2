@@ -1,0 +1,42 @@
+footer{
+	background: #d1805d;
+}
+
+footer .contenedor{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 30px;
+	color: #fff;
+}
+
+.copy{
+	font-size: 20px;
+	padding: 20px;
+}
+
+.red-soc{
+	width: 100%;
+	text-align: center;
+	font-size: 28px;
+}
+
+.red-soc a{
+	color: #ef4216;
+	text-decoration: none;
+}
+
+/*-----------Responsive-----------*/
+
+/*Tablets*/
+@media(min-width: 768px){
+	.red-soc{
+		width: auto;
+		font-size: 28px;
+		padding: 10px;
+	}
+
+	footer .contenedor{
+		justify-content: space-between;
+	}
+}
